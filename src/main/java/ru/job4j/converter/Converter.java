@@ -16,6 +16,7 @@ public class Converter {
         float expectedToEuro = 2F;
         float outputEuro = rubleToEuro(inputEuro);
         boolean passedToEuro = expectedToEuro == outputEuro;
+
         if (passedToEuro) {
             System.out.println(inputEuro + " rubles are " + outputEuro + " Test result: " + passedToEuro);
         } else {
@@ -26,6 +27,7 @@ public class Converter {
         float expectedToDollar = 3F;
         float outputDollar = rubleToDollar(inputDollar);
         boolean passedToDollar = expectedToDollar == outputDollar;
+
         if (passedToDollar) {
             System.out.println(inputDollar + " rubles are " + outputDollar + " Test result: " + passedToDollar);
         } else {
