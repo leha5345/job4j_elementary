@@ -2,7 +2,7 @@ package ru.job4j.calculator;
 
 public class Calculator {
     public static void main(String[] args) {
-        int two = 2; // добавил потому что в задании создание этой переменной отсутствовало
+        int two = 2;
         int six = 6;
         int four = 4;
         int five = 5;
