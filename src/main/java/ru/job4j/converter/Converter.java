@@ -5,10 +5,12 @@ public class Converter {
         float result = value / 70;
         return result;
     }
+
     public static float rubleToDollar(float value) {
         float result = value / 60;
         return result;
     }
+
     public static void main(String[] args) {
         float inputEuro = 140F;
         float expectedToEuro = 2F;
