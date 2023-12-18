@@ -22,7 +22,6 @@ public class Converter {
         } else {
             System.out.println("Test failed");
         }
-
         float inputDollar = 180F;
         float expectedToDollar = 3F;
         float outputDollar = rubleToDollar(inputDollar);
