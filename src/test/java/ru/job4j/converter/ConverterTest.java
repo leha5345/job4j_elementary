@@ -7,7 +7,6 @@ import static org.assertj.core.api.Assertions.withPrecision;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ConverterTest {
-
     @Test
     void whenConvert140RblThen2Euro() {
         float inputEuro = 140;
