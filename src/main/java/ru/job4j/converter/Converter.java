@@ -20,7 +20,7 @@ public class Converter {
         if (passedToEuro) {
             System.out.println(inputEuro + " rubles are " + outputEuro + " Test result: " + passedToEuro);
         } else {
-            System.out.println("Test  failed");
+            System.out.println("Test failed");
         }
 
         float inputDollar = 180F;
@@ -30,7 +30,7 @@ public class Converter {
         if (passedToDollar) {
             System.out.println(inputDollar + " rubles are " + outputDollar + " Test result: " + passedToDollar);
         } else {
-            System.out.println("Test  failed");
+            System.out.println("Test failed");
         }
     }
 }
