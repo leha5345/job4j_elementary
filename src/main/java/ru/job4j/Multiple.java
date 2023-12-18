@@ -1,5 +1,5 @@
 package ru.job4j;
-//4.1. Разбор первой программы. [#159033]
+
 public class Multiple {
     public static void main(String[] args) {
         System.out.println("1 * 1 = 1");
